@@ -1,6 +1,7 @@
 <template>
-  <div>
-      <img src="@/assets/bg-rain-window.jpg" alt="">
+  <div id="bg-outer">
+      <img id="bg-img">
+      <div id="bg-overlay"></div>
   </div>
 </template>
 
@@ -10,20 +11,37 @@ export default {
 }
 </script>
 
-<style scoped>
-    div{
+<style>
+    #bg-outer{
+        /* z-index: -2; 
+        width: 100%;
+        height: 100%;
         position: fixed;
-        width: 100%;
-        height: 100%;
-        top: 0;
         left: 0;
-        z-index: -1;
+        top: 0;
+        background: url('../assets/bg-rain-window.jpg') no-repeat center center;
+        background-size: cover; */
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: -2;
     }
-    img{
+    #bg-overlay{
+        z-index: -1;
         width: 100%;
         height: 100%;
+        background: gray;
+        opacity: 0.1;
     }
-    body{
-        color: transparent;
+    #bg-img{
+        height: 100%;
+        width: 100%;
+        content: url('../assets/bg-stripes-purple.jpg');
+    }
+    @media screen and (max-width: 700px){
+        #bg-img{
+            content: url('../assets/bg-stripes-mobile-purple.jpg');
+        }
     }
 </style>
