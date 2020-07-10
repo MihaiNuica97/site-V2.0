@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<v-app-bar dark class="elevation-0" style="background: transparent">
-			<v-tabs right dark class="mr-16" slider-color="accent" >
+			<v-tabs right dark class="mr-0 mr-xl-16" slider-color="primary" >
 				<v-tab v-for="link in links" v-bind:key="link.text" router :to="link.route" >{{link.text}}</v-tab>
 			</v-tabs>
 			<div>
