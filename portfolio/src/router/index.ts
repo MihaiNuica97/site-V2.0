@@ -28,6 +28,18 @@ const routes: Array<RouteConfig> = [
     name: "Contact",
     component: Contact
   },
+  {
+    path:"/github",
+    beforeEnter() {location.href = 'https://github.com/MihaiNuica97'}
+  },
+  {
+    path:"/linkedin",
+    beforeEnter() {location.href = 'http://linkedin.com'}
+  },
+  {
+    path:"/instagram",
+    beforeEnter() {location.href = 'https://www.instagram.com/mihai.nuica/'}
+  },
 ];
 
 const router = new VueRouter({
