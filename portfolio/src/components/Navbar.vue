@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10">
+  <div class="d-none d-sm-block">
     <v-app-bar dark fixed class="elevation-0" style="background: #100824">
       <v-tabs right dark class slider-color="primary">
         <v-tab v-for="link in links" v-bind:key="link.text" router :to="link.route">{{link.text}}</v-tab>
