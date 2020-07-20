@@ -1,13 +1,10 @@
 <template>
-  <h1 class="white--text" >Projects</h1>
+  <v-card></v-card>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

@@ -6,7 +6,7 @@
       :class="{open: drawer}"
       @click.stop="drawer = !drawer"
     >fas fa-bars</v-icon>
-    <v-navigation-drawer v-model="drawer" color="bground" absolute temporary>
+    <v-navigation-drawer v-model="drawer" color="bground" absolute right temporary>
       <v-list class="mt-16" dark>
         <v-list-item class="pl-6" v-for="link in links" :key="link.route" :to="link.route" link>
           <v-list-item-icon>
@@ -40,6 +40,8 @@ export default {
 <style scoped>
 .burger-icon {
   z-index: 10;
+  position: absolute;
+  right: 16px;
 }
 .burger-icon.open {
   transform: rotate(90deg);

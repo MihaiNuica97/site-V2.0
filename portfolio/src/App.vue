@@ -47,3 +47,9 @@ export default Vue.extend({
   })
 });
 </script>
+
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>
