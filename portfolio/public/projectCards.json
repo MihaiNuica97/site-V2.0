@@ -1,0 +1,30 @@
+[
+	{
+		"img": "marigold-title.png",
+		"title": "Marigold",
+		"subtitle": "Beauty salon",
+		"text": "A responsive website complete with iFrames, a contact form and automatic mailing list subscription",
+		"link": "/"
+	},
+	{
+		"img": "dashboard-title.png",
+		"title": "Ad Auction Dashboard",
+		"subtitle": "Team project",
+		"text": "A Java application designed to parse large .csv files and display them as customizable graphs",
+		"link": "/"
+	},
+	{
+		"img": "ai-title.png",
+		"title": "Search Methods",
+		"subtitle": "AI minigame",
+		"text": "Set a starting point and a goal, then watch the AI find a solution to your custom problem!",
+		"link": "/"
+	},
+	{
+		"img": "plc-title.png",
+		"title": "MScript",
+		"subtitle": "Programming language",
+		"text": "A custom programming language made from scratch with Haskell",
+		"link": "/"
+	}
+]
