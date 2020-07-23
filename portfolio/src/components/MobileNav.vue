@@ -44,6 +44,6 @@ export default {
   right: 16px;
 }
 .burger-icon.open {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 </style>
