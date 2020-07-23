@@ -44,14 +44,12 @@ export default {
     this.axios
       .get("http://www.mihainuica.com/getProjectCards.php")
       .then(response => {
-        console.log(response.data);
         const baseLink = "http://www.mihainuica.com/projects/";
         response.data.forEach(card => {
           const finalLink = baseLink + card.img;
           card.img = finalLink;
           this.cards.push(card);
         });
-        console.log(this.cards);
       });
   }
 };
