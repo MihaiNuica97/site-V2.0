@@ -1,20 +1,42 @@
 <template>
-  <h1 class="white--text">{{name}}</h1>
+  <project :project="project" />
 </template>
 
 <script>
+import Project from "@/components/Project.vue";
 export default {
   props: {
     name: String
   },
+  components: {
+    project: Project
+  },
+  data() {
+    return {
+      project: {
+        images: null,
+        details: { title: null }
+      }
+    };
+  },
   mounted() {
-    console.log(this.name);
+    const baseURL = "http://www.mihainuica.com/projects/" + this.name + "/";
+    const imgs = [];
     this.axios
       .post("http://www.mihainuica.com/getProjects.php", {
         name: this.name
       })
       .then(response => {
-        console.log(response.data);
+        response.data.images.forEach(imgName => {
+          const imgURL = baseURL + imgName;
+          imgs.push(imgURL);
+        });
+        imgs.sort();
+        this.project = {
+          images: imgs,
+          details: response.data.details
+        };
+        console.log(this.project);
       });
   }
 };
