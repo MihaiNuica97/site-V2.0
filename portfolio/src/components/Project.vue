@@ -19,7 +19,13 @@
       >
         <v-icon class="mr-2">far fa-play-circle</v-icon>Live
       </v-btn>
-
+      <v-btn
+        :href="project.details.download"
+        class="action-btn primary v-size--x-large"
+        v-if="project.details.download"
+      >
+        <v-icon class="mr-2">fas fa-download</v-icon>Download
+      </v-btn>
       <v-btn
         text
         :href="project.details.github"
@@ -36,7 +42,7 @@
     <v-container class="d-flex flex-wrap justify-center">
       <v-icon
         x-large
-        color="white lighten-1"
+        color="primary lighten-1"
         class="tech-icons"
         v-for="(icon, i ) in project.details.techIcons"
         :key="i"
