@@ -1,6 +1,18 @@
 {
 	"marigold": {
-		"PLM": 1,
-		"PLM2": 2
+		"title": "Marigold",
+		"github": "https://github.com/MihaiNuica97/Marigold",
+		"live": "https://salonmarigold.ro",
+		"text": "A responsive website made with just HTML, vanilla JavaScript and CSS and JQuery. Features a contact form that composes an email based on the input in the field. It also automatically adds the email to a mailing list if consent is given. Looks great on mobile!",
+		"techIcons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"]
+	},
+	"ai": {
+		"title": "Blocksworld Puzzle"
+	},
+	"dashboard": {
+		"title": "Ad Auction Dashboard"
+	},
+	"plc": {
+		"title": "MScript"
 	}
 }
