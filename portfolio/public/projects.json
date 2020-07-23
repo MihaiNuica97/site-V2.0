@@ -3,16 +3,30 @@
 		"title": "Marigold",
 		"github": "https://github.com/MihaiNuica97/Marigold",
 		"live": "https://salonmarigold.ro",
-		"text": "A responsive website made with just HTML, vanilla JavaScript and CSS and JQuery. Features a contact form that composes an email based on the input in the field. It also automatically adds the email to a mailing list if consent is given. Looks great on mobile!",
+		"text": "A responsive website made with just HTML, vanilla JavaScript, CSS and JQuery. Features a contact form that composes an email based on the input in the field. It also automatically adds the email to a mailing list if consent is given. Looks great on mobile!",
 		"techIcons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"]
 	},
 	"ai": {
-		"title": "Blocksworld Puzzle"
+		"title": "Blocksworld Puzzle",
+		"github": "https://github.com/MihaiNuica97/SearchMethods",
+		"live": "https://mihainuica.com/ai",
+		"text": "A puzzle solving AI. It uses uninformed graph search algorithms to find the solution to custom problems set by the user. Made with HTML5, JavaScript, JQuery and CSS. WARNING: Depending on the chosen search strategy it may take a long time for the AI to find a solution. During this time your browser may look like it is not responding. Please be patient",
+		"techIcons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"]
 	},
 	"dashboard": {
-		"title": "Ad Auction Dashboard"
+		"title": "Ad Auction Dashboard",
+		"github": "https://github.com/MihaiNuica97/AdAuctionDashboard",
+		"live": "",
+		"download": "https://drive.google.com/file/d/15yn__6KUdTsQcFaGpDA0lzQUR54fF-_a/view?usp=sharing",
+		"text": "A university team project. A java application designed to parse large csv files representing analytical data for ad campaigns spanning months and displaying them as graphs. Features multiple themes, printing functionality and filters that can be applied to the graphs!",
+		"techIcons": ["fab fa-java"]
 	},
 	"plc": {
-		"title": "MScript"
+		"title": "MScript",
+		"github": "https://github.com/MihaiNuica97/PLC",
+		"live": "",
+		"download": "",
+		"text": "A programming language made from scratch with Haskell! Features maths, boolean operations, variable assignment (to both absolute values and results of operations), arrays, while loops and if/if-else statements. It is designed to read and perform continuous operations on potentially infinite streams of data.",
+		"techIcons": ["fab fa-java"]
 	}
 }
