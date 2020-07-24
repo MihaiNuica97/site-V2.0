@@ -9,7 +9,7 @@
 	"ai": {
 		"title": "Blocksworld Puzzle",
 		"github": "https://github.com/MihaiNuica97/SearchMethods",
-		"live": "https://mihainuica.com/ai",
+		"live": "http://mihainuica.com/ai",
 		"text": "A puzzle solving AI. It uses uninformed graph search algorithms to find the solution to custom problems set by the user. Made with HTML5, JavaScript, JQuery and CSS. WARNING: Depending on the chosen search strategy it may take a long time for the AI to find a solution. During this time your browser may look like it is not responding. Please be patient",
 		"techIcons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"]
 	},
